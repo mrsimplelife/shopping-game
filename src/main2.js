@@ -41,7 +41,7 @@ function updateItems(key, value) {
     }
   });
 }
-function setEventListeners(items) {
+function setEventListeners() {
   const $logo = document.querySelector("img");
   $logo.addEventListener("click", displayAll);
   const $buttons = document.querySelector(".sort");
